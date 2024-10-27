@@ -157,6 +157,7 @@ margin: 10em 20em 0em;
         position: re;
         bottom: 0;
         color: white;
+        border: solid 2px black
         background-color: black;
         float: left;
         padding: 1.2em;
@@ -176,7 +177,7 @@ margin: 10em 20em 0em;
 
 @media screen and (max-width:750px){
     .text h1{
-        font-size: 60px;
+        font-size: 70px;
         font-weight: bolder;
     }
 
@@ -193,7 +194,7 @@ margin: 10em 20em 0em;
 
 .mini{
     width: 35%;
-    left:8rem;
+    left:7rem;
     
 }
 
@@ -202,11 +203,11 @@ margin: 10em 20em 0em;
     width: 95%;
 }
 
-.next a{
+.next {
     padding:0 0.2em 0.3em 0;
 
 .caret{
-    padding-bottom: 10em;
+    padding-bottom: 7em;
 }
 
 }
