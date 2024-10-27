@@ -127,7 +127,7 @@ margin: 10em 20em 0em;
     .caret{
         
         padding-top: 4em;
-        padding-bottom: 20em;
+        padding-bottom: 8em;
       width: 90%;
       display: block;
       margin: 0 auto;
@@ -146,6 +146,7 @@ margin: 10em 20em 0em;
 
    
     .footer{
+        position: relative;
       font-size: medium;
       display: block;
       margin: 0 auto;
@@ -155,6 +156,8 @@ margin: 10em 20em 0em;
     }
 
     .edit{
+        position : absolute;
+        bottom : -3.95em
         color: white;
         background-color: black;
         float: left;
@@ -205,7 +208,7 @@ margin: 10em 20em 0em;
     padding:0 0.1em 0.3em 0;
 
 .caret{
-    padding-bottom: 1em;
+    padding-bottom: 4em;
 }
 
 }
