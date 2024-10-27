@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.back{
+    background-color: rgb(255, 0, 0);
+}
+ 
+
+
+.spa{
+margin: 10em 20em 0em;
+}
+
+
+.text h1{
+    color: aliceblue;
+    font-size: 85px;
+   font-weight: 900;
+   font-family: cursive;
+    text-align: center;
+}
+
+.pix img{
+    width: 45%;
+    height: 30%;
+    display: block;
+    margin:0 auto;
+}
+
+.back2{
+    background-image: url(burger.png);
+    opacity: 0.7;
+    width: 100%;
+    height: 10em;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.993);
+    background-blend-mode: darken;
+   
+}
+
+.mini{
+    background-color: rgb(247, 143, 143);
+    width: 25%;
+    height: 16em;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    border-radius:0 0 30px 30px;
+    box-shadow: 0 5px 30px red;
+    display: block;
+    margin: 0 auto;
+}
+
+.mini img{
+    border: 2px solid rgba(255, 0, 0, 0.404);
+    position: absolute;
+    width: 80%;
+    top: 45px;
+   left: 35px;
+    height: 13em;
+    border-radius: 40px;
+
+}
+
+.next{
+    color: pink;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: right;
+    padding:0 2em 1em 0 ;
+}
+
+.next a{
+    text-decoration: none;
+    color: pink;
+}
+
+
+.form{
+    margin-top: 150px; 
+    position: relative;
+    
+}
+
+.label label{
+    color: gray;
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.7em 1em 0;
+    padding: 0 0.5em 0;
+    background-color: white;
+
+    
+    }
+
+    .form input{
+        border-radius: 30px;
+        width: 100%;
+        padding: 0.7em;
+    }
+
+    input{
+       font-weight: bold;
+       text-indent: 10%;
+       padding-left: 40px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .bore{
+        border-bottom:  solid rgba(15, 15, 15, 0.473) 3px;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+      padding-top: 1em;
+      
+    }
+
+    .caret{
+        
+        padding-top: 4em;
+        padding-bottom: 20em;
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      font-weight: bold;
+    color: gray;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .left{
+        float: left;
+    }
+
+    .right{
+        float: right;
+    }
+
+   
+    .footer{
+      font-size: medium;
+      display: block;
+      margin: 0 auto;
+      font-weight: bold;
+    color: gray;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .edit{
+        position: re;
+        bottom: 0;
+        color: white;
+        background-color: black;
+        float: left;
+        padding: 1.2em;
+        border-radius: 15px 15px  15px 0;
+        
+    }
+
+    .logout{
+        color: red;
+        border: 2px solid red;
+        float: right;
+        padding: 1.2em;
+        border-radius: 15px 15px 0 15px ;
+    }
+
+
+
+@media screen and (max-width:750px){
+    .text h1{
+        font-size: 50px;
+        font-weight: 100px;
+    }
+
+
+    .spa{
+        margin:17em 1em 0em;
+    }
+
+    .pix img{
+        width: 380px;
+        height: 300px;
+
+    }
+
+.mini{
+    width: 35%;
+    left: 10em;
+}
+
+.mini img{
+    left: 5px;
+    width: 95%;
+}
+
+}
+
+.caret{
+    padding-bottom: 10em;
+}
