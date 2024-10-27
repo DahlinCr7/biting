@@ -176,8 +176,8 @@ margin: 10em 20em 0em;
 
 @media screen and (max-width:750px){
     .text h1{
-        font-size: 50px;
-        font-weight: 100px;
+        font-size: 100px;
+        font-weight: bolder;
     }
 
 
@@ -193,6 +193,7 @@ margin: 10em 20em 0em;
 
 .mini{
     width: 35%;
+    left:2rem;
     
 }
 
