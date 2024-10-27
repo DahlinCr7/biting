@@ -176,7 +176,7 @@ margin: 10em 20em 0em;
 
 @media screen and (max-width:750px){
     .text h1{
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bolder;
     }
 
@@ -202,7 +202,7 @@ margin: 10em 20em 0em;
     width: 95%;
 }
 
-.next{
+.next a{
     padding:0 0.2em 0.3em 0;
 
 .caret{
