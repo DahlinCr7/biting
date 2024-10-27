@@ -18,7 +18,7 @@ margin: 10em 20em 0em;
 
 .text h1{
     color: aliceblue;
-    font-size: 4em;
+    font-size: 2.5em;
    font-weight: bolder;
    font-family: cursive;
     text-align: center;
@@ -193,7 +193,7 @@ margin: 10em 20em 0em;
 
 .mini{
     width: 35%;
-    left:4rem;
+    left:7rem;
     
 }
 
@@ -203,7 +203,7 @@ margin: 10em 20em 0em;
 }
 
 .next{
-    padding:0 1em 1em 0;
+    padding:0 0.5em 0.5em 0;
 
 .caret{
     padding-bottom: 10em;
