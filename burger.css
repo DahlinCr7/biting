@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    width:100%
     margin: 0;
     padding: 0;
 }
@@ -178,7 +179,6 @@ margin: 10em 20em 0em;
 
 @media screen and (max-width:750px){
     .text h1{
-        text-align:center
         font-size: 70px;
         font-weight: bolder;
     }
@@ -206,7 +206,7 @@ margin: 10em 20em 0em;
 }
     .edit{
         position: absolute;
-        bottom:-0.5px
+        bottom:-3.95px
         }
 
 .next {
