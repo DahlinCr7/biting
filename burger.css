@@ -22,8 +22,9 @@ margin: 10em 20em 0em;
     font-size: 7emm;
    font-weight: bolder;
    font-family: cursive;
-    padding-left:1rem
-    text-align: center;
+    padding-left:1rem;
+    display:block;
+    margin:0 auto;
 }
 
 .pix img{
@@ -206,7 +207,7 @@ margin: 10em 20em 0em;
 }
     .edit{
         position: absolute;
-        bottom:-3.95px
+        bottom:7px
         }
 
 .next {
