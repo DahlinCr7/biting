@@ -1,6 +1,6 @@
 
 
-
+```
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,28 +11,47 @@
     <link rel="stylesheet" href="web.css">
     <link rel="stylesheet" href="(link unavailable)" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="(link unavailable)">
+    <style>
+        /* Flexbox styling */
+        .flex-container {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+        
+        /* Responsive image styling */
+        .img-fluid {
+            width: 100%;
+            height: auto;
+        }
+        
+        /* Horizontal alignment */
+        .no-wrap {
+            width: fit-content;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-fluid fw-bold" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-        <div class="row align-items-center">
-            <div class="col-md-6">
+        <div class="row no-wrap flex-container">
+            <div class="col-lg-6 col-md-6 col-12">
                 <div style="font-size: 3em;font-family: cursive;">Owen's Bite</div>
                 <div class="pt-3"><p>Order your favourite food</p></div>
             </div>
-            <div class="col-md-2 text-center">
-                <img src="bobo.jpg" alt="" width="70" height="50" class="rounded-4 shadow border-0">
+            <div class="col-lg-1 col-md-1 col-4">
+                <div class="pt-4"><img src="bobo.jpg" alt="" class="rounded-4 shadow border-0 img-fluid"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8">
+        <div class="row no-wrap flex-container">
+            <div class="col-lg-6 col-md-8 col-12">
                 <div class="input-group">
                     <input type="text" name="search" id="search" placeholder="Search" class="form-control py-3 px-5 fw-bold shadow">
                     <span class="input-group-text bg-transparent border-0"><i class="bi bi-search fw-bold"></i></span>
                 </div>
             </div>
-            <div class="col-md-2">
-                <button type="button" class="btn btn-danger p-3 shadow border-0 w-100">
+            <div class="col-lg-2 col-md-2 col-4">
+                <button type="button" class="btn btn-danger p-3 shadow border-0 w-100"> 
                     <i class="bi bi-sort-up-alt fs-5 fw-bolder"></i>
                 </button>
             </div>
@@ -42,5 +61,6 @@
 </body>
 
 </html>
+```
 
-  
+                                                                  
